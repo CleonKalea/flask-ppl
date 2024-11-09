@@ -1,6 +1,6 @@
 runtime: python39
+service: default
 
-service: flask-backend
 handlers:
 - url: /.*
   script: main.app
