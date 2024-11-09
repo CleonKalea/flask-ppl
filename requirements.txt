@@ -1,3 +1,8 @@
 flask
 yfinance
 flask_cors
+python-dotenv
+mysql-connector-python
+pymysql
+sqlalchemy
+flask_sqlalchemy

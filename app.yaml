@@ -1,6 +1,9 @@
 runtime: python39
 service: default
 
+env_variables:
+  RAILWAY_DATABASE_URL: mysql+pymysql://root:athADwnlYdmkKlyrLuSKEJJXBgpCPLjp@junction.proxy.rlwy.net:22612/railway
+
 handlers:
 - url: /.*
   script: main.app
